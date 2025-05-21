@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Quiz Game</h1>
+      <div id="loading" class="loading">Loading questions...</div>
+      <div id="quiz" class="hidden">
+        <div id="question-topic" class="question-topic"></div>
+        <div id="question-text" class="question-text"></div>
+        <div id="options" class="options"></div>
+        <div id="score" class="score"></div>
+      </div>
+      <button id="start-btn" class="hidden">Start Quiz</button>
+    </div>
+    <script src="database.js"></script>
+    <script src="scripts.js"></script>
+  </body>
+</html>
